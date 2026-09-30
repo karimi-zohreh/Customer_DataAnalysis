@@ -1,6 +1,4 @@
-flask
-dash
-streamlit
-pandas
-altair
-plotly
+* streamlit
+* pandas
+* altair
+* plotly
