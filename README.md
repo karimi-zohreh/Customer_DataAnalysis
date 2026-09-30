@@ -61,6 +61,7 @@ It also provides a distribution of customers across marital-status categories.
 
 The project contains two datasets:
 
+```text
 data/
 ├── Education/
 │   ├── data.csv
@@ -69,13 +70,13 @@ data/
 └── Home/
     ├── data.csv
     └── data.xlsx
-
+```
 
 The analysis pages currently use the CSV files.
 
 ## Application Structure
 
-
+```text
 customerDataAnalysis/
 │
 ├── app.py
@@ -94,19 +95,23 @@ customerDataAnalysis/
 └── pages/
     ├── Age.py
     ├── Education.py
-    ├── Marital_status.py
+    ├── Marital_Status.py
     └── home.py
-
+```
 
 ## How to Run
 
 Install the required packages:
 
+```bash
 pip install -r requirements.txt
+```
 
 Run the Streamlit application:
-streamlit run app.py
 
+```bash
+streamlit run app.py
+```
 
 ## Purpose
 
